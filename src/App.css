@@ -1,0 +1,59 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 h2 h3 {
+  color: rgb(40, 44, 52);
+}
+
+h3 {
+  text-align: left;
+}
+
+.header {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.jsonViewer {
+  border: 1px solid black;
+  height: 230px;
+  background-color: rgb(40, 44, 52);
+  padding: 20px;
+  border-radius: 5px;
+  overflow-y: scroll;
+  color: greenyellow;
+}
+
+@media (max-width: 768px) {
+  .jsonViewer {
+    margin-top: 8px;
+  }
+}
+
+.btn-s {
+  width: 150px;
+  color: #fff !important;
+  background-color: #5bc0de !important;
+  border-color: #46b8da !important;
+  font-weight: 500 !important;
+}
+
+label {
+  width: 100px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.container {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+label {
+  color: rgb(40, 44, 52) !important;
+  font-weight: 600 !important;
+}
